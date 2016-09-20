@@ -1,0 +1,3 @@
+check_lint:
+  script:
+    - flake8 -v *.py */*.py 

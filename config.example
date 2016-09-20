@@ -1,0 +1,11 @@
+[forecastio]
+apikey = <FORECASTIO APIKEY>
+lat = 
+lon = 
+
+[influxdb]
+host = localhost
+port = 8086 
+username = admin
+password = admin
+database = forecastio
