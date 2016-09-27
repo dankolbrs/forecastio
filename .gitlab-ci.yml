@@ -7,4 +7,6 @@ before_script:
 check_lint:
   script:
     - flake8 *.py */*.py 
+run_tests:
+  script:
     - nosetests -v
