@@ -1,3 +1,7 @@
+before_script:
+  - yum install -y python-flake8 python-nose python-pip
+  - pip install requests
+
 check_lint:
   script:
     - flake8 -v *.py */*.py 
