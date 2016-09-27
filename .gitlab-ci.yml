@@ -1,6 +1,7 @@
 before_script:
-  - yum install -y python-flake8 python-nose python-pip
-  - pip install requests
+  - yum install -y python-flake8 epel-release
+  - yum install python-nose python-pip
+  - pip install -r /builds/dankrs/requirements.txt
 
 check_lint:
   script:
