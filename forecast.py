@@ -5,7 +5,7 @@ import configargparse
 import os
 
 p = configargparse.ArgParser(default_config_files=[
-    str(os.path.dirname(__file__)) + '/config.ini'])
+    str(os.path.dirname(__file__)) + './config.ini'])
 p.add('-c', "--config", is_config_file=True, help="Config file path")
 p.add("-a", "--apikey", required=True, help="ForecastIO apikey")
 p.add("-t", "--lat", required=True, help="Latitude for weather forecast")
