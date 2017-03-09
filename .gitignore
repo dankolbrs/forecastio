@@ -1,3 +1,6 @@
 *.pyc
 config.ini
 tests/files/forecast.sample
+.venv
+.idea
+*egg*
