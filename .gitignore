@@ -1,6 +1,6 @@
 *.pyc
 config.ini
-tests/files/forecast.sample
+tests/files/forecast.sample # direct darksky api output, removed due to location information 
 .venv
 .idea
 *egg*
