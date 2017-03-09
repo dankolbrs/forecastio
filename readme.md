@@ -11,6 +11,6 @@ To use:
 * Copy config.example to config.ini, fill with your settings
 
 ## Running
-`forecastio -c /path/to/config``
+`forecastio -c /path/to/config`
 
-*Cron for best results*
+*cron for best results*
